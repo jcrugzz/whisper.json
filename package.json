@@ -1,0 +1,36 @@
+{
+  "name": "whisper-stream",
+  "version": "1.0.0",
+  "description": "Uses secure-keys to transform a piped stream of text to the encrypted/decrypted version",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jcrugzz/whisper-stream.git"
+  },
+  "keywords": [
+    "secure-keys",
+    "config",
+    "transform",
+    "edit"
+  ],
+  "author": "Jarrett Cruger <jcrugzz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jcrugzz/whisper-stream/issues"
+  },
+  "homepage": "https://github.com/jcrugzz/whisper-stream#readme",
+  "dependencies": {
+    "concat-stream": "~1.5.2",
+    "duplexify": "~3.5.0",
+    "from2-string": "~1.1.0",
+    "minimist": "~1.2.0",
+    "secure-keys": "~1.0.0"
+  },
+  "devDependencies": {
+    "assume": "~1.4.1",
+    "mocha": "~3.1.2"
+  }
+}
